@@ -273,10 +273,10 @@ nav ul a.active {
     justify-content: center;
   }
   nav ul a li {
-    font-size: 14px;
+    font-size: 12px;
   }
   nav ul a{
-    padding: 20px;
+    padding: 15px;
   }
 
   .hero {
