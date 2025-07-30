@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+</head>
+<body>
+    <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <section class="section1">
+    <nav style="margin-bottom: 50px;">
+      <header>
+        <a href="index.html"><h1>Delicious</h1></a>
+      </header>
+      <ul>
+        <a href="index.html" class="active"><li>Homepage</li></a>
+        <a href="products.html"><li>Products</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1><span>Delicious,</span><br>Delight in Every Bite</h1>
+      <p>Discover our finest selection of food and beverages—crafted to satisfy every craving and bring flavor to your day.</p>
+      <button onclick="window.location.href='products.html'">Shop Now</button>
+    </div>
+  </section>
+
+  <section class="section2">
+    <h1>Featured</h1>
+    <p>Take a Look On Our Best Sellers Products<br>For The Last Week</p>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/images/broast.jpg" alt="Nike Shoes" />
+        <h3>Chicken Broast</h3>
+        <p>$220</p>
+        <button>Add to Cart  <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+
+      <div class="product-card">
+        <img src="assets/images/broast2.jpg" alt="T-Shirt" />
+        <h3>Chicken Wings</h3>
+        <p>$100</p>
+        <button>Add to Cart  <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+
+      <div class="product-card">
+        <img src="assets/images/burger.jpg" alt="Shorts" />
+        <h3>Classic Burger</h3>
+        <p>$200</p>
+        <button>Add to Cart  <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+
+      <div class="product-card">
+        <img src="assets/images/chickenRanch.jpg" alt="iPhone 16" />
+        <h3>Chicken Ranch Pizza</h3>
+        <p>$230</p>
+        <button>Add to Cart  <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+
+      <div class="product-card">
+        <img src="assets/images/mangoJuice.jpg" alt="Bracelet" />
+        <h3>Mango Juice</h3>
+        <p>$60</p>
+        <button>Add to Cart<i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+
+      <div class="product-card">
+        <img src="assets/images/mojitoPassion.jpg" alt="Laptop" />
+        <h3>Mojito Passion Fruit</h3>
+        <p>$45</p>
+        <button>Add to Cart  <i class="fa-solid fa-cart-plus"></i></button>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-contact">
+      <h2>Delicious</h2>
+      <p><i class="fa-solid fa-envelope"></i> hazzemmuhammed@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +20 121 278 1521</p>
+      <p><i class="fa-solid fa-location-dot"></i> Alexandria, Egypt</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/HazemMohamed1577/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/hazem.mohamed1577/"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/Hazzemm"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Hazem Mohamed. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  window.addEventListener("load", function () {
+    const loader = document.getElementById("loader");
+    loader.style.opacity = "0";
+    loader.style.visibility = "hidden";
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+    <nav>
+      <header>
+        <a href="index.html"><h1>Delicious</h1></a>
+      </header>
+      <ul>
+        <a href="index.html"><li>Homepage</li></a>
+        <a href="products.html"><li>Products</li></a>
+        <a href="about.html" class="active"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    
+  <section class="about-hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>About Delicious</h1>
+      <p>Discover our passion for quality food and beverages...</p>
+    </div>
+  </section>
+
+  <section class="about-content">
+    <div class="about-section">
+      <img src="./assets/images/chefs.jpg" alt="Our Chef">
+      <div class="text">
+        <h3>Our Story</h3>
+        <p>Delicious began with a simple mission: to bring vibrant, delicious food to everyone’s table. From humble beginnings in a small kitchen, we've grown into a trusted name in food and beverages—known for quality, taste, and innovation.</p>
+      </div>
+    </div>
+
+    <div class="about-section reverse">
+      <img src="./assets/images/freshFood.jpg" alt="Fresh Ingredients">
+      <div class="text">
+        <h3>Fresh Ingredients</h3>
+        <p>We source our ingredients locally whenever possible, ensuring that every bite bursts with natural flavor and nutrition. From organic veggies to farm-fresh meats, quality is at the core of every dish we serve.</p>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <img src="./assets/images/delivery.jpg" alt="Our Community">
+      <div class="text">
+        <h3>Community First</h3>
+        <p>We’re not just a food brand—we’re part of your neighborhood. Whether supporting local farmers or sponsoring food drives, we believe in giving back to the community that supports us.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-contact">
+      <h2>Delicious</h2>
+      <p><i class="fa-solid fa-envelope"></i> hazzemmuhammed@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +20 121 278 1521</p>
+      <p><i class="fa-solid fa-location-dot"></i> Alexandria, Egypt</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/HazemMohamed1577/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/hazem.mohamed1577/"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/Hazzemm"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Hazem Mohamed. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  window.addEventListener("load", function () {
+    const loader = document.getElementById("loader");
+    loader.style.opacity = "0";
+    loader.style.visibility = "hidden";
+  });
+</script>
+</body>
+</html>
